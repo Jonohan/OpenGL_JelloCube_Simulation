@@ -1,0 +1,23 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (createWorld.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  input.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\openGL-headers.h(5,10): fatal  error C1083: Cannot open include file: 'GL/freeglut.h': No such file or directory
+  jello.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\openGL-headers.h(5,10): fatal  error C1083: Cannot open include file: 'GL/freeglut.h': No such file or directory
+  physics.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\openGL-headers.h(5,10): fatal  error C1083: Cannot open include file: 'GL/freeglut.h': No such file or directory
+  pic.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\pic.cpp(55,15): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\pic.cpp(52,17): warning C4101: 'byte': unreferenced local variable
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\pic.cpp(53,9): warning C4101: 'i': unreferenced local variable
+  ppm.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(47,15): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(57,9): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(58,2): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(80,15): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(91,9): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(92,2): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(93,2): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\ppm.cpp(130,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  showCube.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\openGL-headers.h(5,10): fatal  error C1083: Cannot open include file: 'GL/freeglut.h': No such file or directory
+  Generating Code...
