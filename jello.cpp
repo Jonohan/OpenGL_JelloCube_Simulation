@@ -210,7 +210,7 @@ void doIdle()
   if (saveScreenToFile==1)
   {
     saveScreenshot(windowWidth, windowHeight, s);
-    saveScreenToFile=0; // save only once, change this if you want continuos image generation (i.e. animation)
+    //saveScreenToFile=0; // save only once, change this if you want continuos image generation (i.e. animation)
     sprite++;
   }
 
@@ -236,6 +236,18 @@ struct point getCameraDirection()
     direction.y = -sin(Phi) * cos(Theta);
     direction.z = -sin(Theta);
     return direction;
+}
+
+//Get up vector of camera face to
+void getUpDirection(struct point* verDirc, struct point* horDirc)
+{
+    struct point cameraDirc = getCameraDirection();
+    struct point tempUp = { 0.0, 0.0, 1.0 };
+
+    // get horizontal vector perpendicular to vertical Vector
+    CROSSPRODUCTp(cameraDirc, tempUp, *horDirc);
+
+    CROSSPRODUCTp(*horDirc, cameraDirc, *verDirc);
 }
 
 

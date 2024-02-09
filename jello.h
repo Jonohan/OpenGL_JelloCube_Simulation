@@ -62,6 +62,8 @@ extern struct world jello;
 
 struct point getCameraDirection();
 
+void getUpDirection(struct point* verDirc, struct point* horDirc);
+
 // computes crossproduct of three vectors, which are given as points
 // struct point vector1, vector2, dest
 // result goes into dest
