@@ -3,10 +3,14 @@
   USC/Viterbi/Computer Science
   "Jello Cube" Assignment 1 starter code
 
+    Haohan Wang
 */
 
 #include "jello.h"
 #include "input.h"
+
+struct point mouseForce = { 0.0, 0.0, 0.0 };
+double mouseForceAdjust = 0.45;
 
 /* Write a screenshot, in the PPM format, to the specified filename, in PPM format */
 void saveScreenshot(int windowWidth, int windowHeight, char *filename)
@@ -38,7 +42,7 @@ void mouseMotionDrag(int x, int y)
 {
   int vMouseDelta[2] = {x-g_vMousePos[0], y-g_vMousePos[1]};
 
-  if (g_iRightMouseButton) // handle camera rotations
+  if (g_iRightMouseButton && !g_iLeftMouseButton) // handle camera rotations
   {
     Phi += vMouseDelta[0] * 0.01;
     Theta += vMouseDelta[1] * 0.01;
@@ -57,12 +61,47 @@ void mouseMotionDrag(int x, int y)
     
     g_vMousePos[0] = x;
     g_vMousePos[1] = y;
+    struct point cameraDirection = getCameraDirection();
+    //printf("Direction: {%f, %f, %f} \n", cameraDirection.x, cameraDirection.y, cameraDirection.z);
+    //printf("\n");
   }
-
-  if (g_iLeftMouseButton)
+  else if (g_iLeftMouseButton && !g_iRightMouseButton)
   {
-      struct point cameraDirection = getCameraDirection();
-      printf("Direction: {%f, %f, %f} \n", cameraDirection.x, cameraDirection.y, cameraDirection.z);
+      struct point upVector;
+      struct point rightVector;
+      getUpDirection(&upVector, &rightVector);
+      
+      struct point verForce = { 0.0, 0.0, 0.0 };
+      struct point horForce = { 0.0, 0.0, 0.0 };
+
+      // Calculate the force on larger translation direction
+      if (abs(vMouseDelta[0]) > abs(vMouseDelta[1])) {
+          if (vMouseDelta[0] > 0) {
+              // right
+              pCPY(rightVector, horForce);
+          }
+          else {
+              // left
+              pMULTIPLY(rightVector, -1.0, rightVector);
+              pCPY(rightVector, horForce);
+          }
+      }
+      else if (abs(vMouseDelta[1]) > abs(vMouseDelta[0])) {
+          if (vMouseDelta[1] > 0) {
+              // down
+              pMULTIPLY(upVector, -1.0, upVector);
+              pCPY(upVector, verForce);
+          }
+          else {
+              // up
+              pCPY(upVector, verForce);
+          }
+      }
+
+      pSUM(verForce, horForce, mouseForce);
+      pMULTIPLY(mouseForce, mouseForceAdjust, mouseForce);
+      //printf("mouse force: {%f, %f, %f}\n", mouseForce.x, mouseForce.y, mouseForce.z);
+      //printf("\n");
   }
 }
 
@@ -70,6 +109,7 @@ void mouseMotion (int x, int y)
 {
   g_vMousePos[0] = x;
   g_vMousePos[1] = y;
+  mouseForce = { 0.0, 0.0, 0.0 };
 }
 
 void mouseButton(int button, int state, int x, int y)

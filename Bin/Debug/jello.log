@@ -1,86 +1,35 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\\Bin\Debug\) contains files shared from another project (createWorld.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  showCube.cpp
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(90,13): error C2065: 'glColor4f0': undeclared identifier
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(90,29): error C2059: syntax error: ')'
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(91,81): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(91,61): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(91,41): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(103,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(104,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(105,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(106,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(107,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(108,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(115,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(116,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(117,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(118,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(119,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(120,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(121,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(122,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(123,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(124,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(125,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(126,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(128,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(129,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(130,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(131,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(132,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(133,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(134,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(135,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(142,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(143,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(144,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(145,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(146,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(147,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(218,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(217,70): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(217,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(219,74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(219,56): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(219,38): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(221,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(220,75): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(220,41): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(222,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(222,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(222,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(236,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(236,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(236,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(243,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(244,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(248,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(249,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(255,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(256,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(260,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(261,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(267,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(268,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(272,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(273,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(279,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(280,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(284,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(285,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(301,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(302,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(303,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(304,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(315,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(315,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(315,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(316,37): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(316,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(316,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(319,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(319,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(319,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(320,37): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(320,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\showCube.cpp(320,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  jello.cpp
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(43,21): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(127,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(127,27): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(127,32): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(135,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(135,30): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(135,38): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(136,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(136,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(136,37): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(137,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(137,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(137,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(138,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(138,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(138,37): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(139,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(139,30): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(139,37): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(140,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(140,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(140,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(141,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(141,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(141,35): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(142,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(142,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(142,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(147,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(147,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(147,31): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\jello.cpp(202,7): warning C4101: 'i': unreferenced local variable
+  jello.vcxproj -> E:\STUDY\CSCI520\Assignment1\starter-csci520-assign1\Bin\Debug\jello.exe

@@ -3,10 +3,12 @@
   USC/Viterbi/Computer Science
   "Jello Cube" Assignment 1 starter code
 
+    Haohan Wang
 */
 
 #include "jello.h"
 #include "physics.h"
+#include "input.h"
 #include <math.h>
 #include <stdlib.h>
 
@@ -51,8 +53,9 @@ void computeAcceleration(struct world* jello, struct point a[8][8][8])
                 ForceField(jello, i, j, k, tempForce);
                 pSUM(a[i][j][k], tempForce, a[i][j][k]);
 
+                pSUM(a[i][j][k], mouseForce, a[i][j][k]);
+
                 //pSUM(a[i][j][k], testExternalForce, a[i][j][k]);
-                //printf("vector: %f %f %f ", a[1][1][1].x, a[1][1][1].y, a[1][1][1].z);
 
                 pMULTIPLY(a[i][j][k], forceAdjustFactor, a[i][j][k]);
 
