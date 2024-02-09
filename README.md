@@ -37,7 +37,9 @@ $$
 \mathbf{P} = (1 - a) \mathbf{P}_0 + a \mathbf{P}_1
 $$
    - In order to transform equidistant field points in space to each approximate force application point on the jello cube, three-dimensional linear interpolation calculations are used.
-
+  $$
+  \mathbf{R} = \mathbf{C} \times \mathbf{U}_w
+  $$
    - By applying these forces, the simulation can mimic real-world interactions, such as an object falling due to gravity, swaying due to wind, or being attracted/repelled by magnetic fields. This adds a layer of realism to the simulation, allowing objects to interact with their surroundings in a believable manner.
 
 3. **Bouncing off the Walls**
