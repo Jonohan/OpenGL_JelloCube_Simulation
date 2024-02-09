@@ -56,12 +56,16 @@ $$
 	1. **Calculate the Right Vector**:
 	   The 'right' vector $(\mathbf{R})$ can be obtained by the cross product of the camera's direction vector $(\mathbf{C})$ and the world's 'up' vector $(\mathbf{U}_w = (0, 0, 1))$:
 		
-  $$ \mathbf{R} = \mathbf{C} \times \mathbf{U}_w $$
+  $$
+  \mathbf{R} = \mathbf{C} \times \mathbf{U}_w
+  $$
 	
 	2. **Calculate the Up Vector**:
 	   The 'up' vector $(\mathbf{U})$ is then obtained by the cross product of the 'right' vector $(\mathbf{R})$ and the camera's direction vector $(\mathbf{C})$:
 		
-  $$ \mathbf{U} = \mathbf{R} \times \mathbf{C} $$
+  $$
+  \mathbf{U} = \mathbf{R} \times \mathbf{C}
+  $$
 	
 	These calculations ensure that the 'right' and 'up' vectors are always perpendicular to the camera's direction and to each other, maintaining orthogonality and consistency with the camera's orientation as it moves and rotates.
 
