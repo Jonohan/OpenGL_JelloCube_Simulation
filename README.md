@@ -2,7 +2,7 @@
 
 This is a computer simulation project aimed at modeling the conversion of external forces and elastic potential energy of a jello cube, achieving physical effects similar to those in the real world.
 
-![Alt text for my GIF](images/CubeAnime.gif)
+![Alt text for my GIF](images/my-gif.gif)
 
 
 **Development Environment:**
