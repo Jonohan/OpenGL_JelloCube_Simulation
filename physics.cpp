@@ -411,12 +411,15 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     struct point dampF;
     struct point sumF;
 
+    double bendAdj = 0.6;
+    double bendrestLength = bendAdj * 2.0 * restLength; // I adjest it a little bit to confront external pressure
+
     totalbSF = { 0.0,0.0,0.0 };
 
     // front
     if (j + 2 <= 7 && j >= 0)
     {
-        HookForce(jello->p[i][j][k], jello->p[i][j + 2][k], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i][j + 2][k], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i][j + 2][k], jello->v[i][j][k], jello->v[i][j + 2][k], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
@@ -425,7 +428,7 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     // back
     if (j - 2 >= 0 && j <= 7)
     {
-        HookForce(jello->p[i][j][k], jello->p[i][j - 2][k], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i][j - 2][k], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i][j - 2][k], jello->v[i][j][k], jello->v[i][j - 2][k], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
@@ -434,7 +437,7 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     // right
     if (i - 2 >= 0 && i <= 7)
     {
-        HookForce(jello->p[i][j][k], jello->p[i - 2][j][k], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i - 2][j][k], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i - 2][j][k], jello->v[i][j][k], jello->v[i - 2][j][k], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
@@ -443,7 +446,7 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     // left
     if (i + 2 <= 7 && i >= 0)
     {
-        HookForce(jello->p[i][j][k], jello->p[i + 2][j][k], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i + 2][j][k], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i + 2][j][k], jello->v[i][j][k], jello->v[i + 2][j][k], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
@@ -452,7 +455,7 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     // up
     if (k + 2 <= 7 && k >= 0)
     {
-        HookForce(jello->p[i][j][k], jello->p[i][j][k + 2], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i][j][k + 2], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i][j][k + 2], jello->v[i][j][k], jello->v[i][j][k + 2], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
@@ -461,7 +464,7 @@ void BendSpringsForce(struct world* jello, int i, int j, int k, struct point& to
     // down
     if (k - 2 >= 0 && k <= 7)
     {
-        HookForce(jello->p[i][j][k], jello->p[i][j][k - 2], jello->kElastic, restLength, hookF);
+        HookForce(jello->p[i][j][k], jello->p[i][j][k - 2], jello->kElastic, bendrestLength, hookF);
         DampForce(jello->p[i][j][k], jello->p[i][j][k - 2], jello->v[i][j][k], jello->v[i][j][k - 2], jello->dElastic, dampF);
         pSUM(hookF, dampF, sumF);
         pSUM(totalbSF, sumF, totalbSF);
